@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="一、Hexo简介Hexo是什么呢？也许引用Hexo官方文档里面的说明是再好不过了： Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2019/01/20/本地博客/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、Hexo简介Hexo是什么呢？也许引用Hexo官方文档里面的说明是再好不过了： Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-01-20T09:55:56.001Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="一、Hexo简介Hexo是什么呢？也许引用Hexo官方文档里面的说明是再好不过了： Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-本地博客" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/01/20/本地博客/" class="article-date">
+  <time datetime="2019-01-20T09:56:14.199Z" itemprop="datePublished">2019-01-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>一、Hexo简介<br>Hexo是什么呢？也许引用Hexo官方文档里面的说明是再好不过了：</p>
+<p>Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.</p>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<p>二、Hexo安装</p>
+<ol>
+<li>安装Git<br>下载地址：<a href="https://git-scm.com/download，按照默认傻瓜式安装就好了" target="_blank" rel="noopener">https://git-scm.com/download，按照默认傻瓜式安装就好了</a></li>
+</ol>
+<p>补充一句，如果你已经安装了Git，你可以通过Git本身获得最新的开发版本：</p>
+<p>$ git clone <a href="https://github.com/git/git" target="_blank" rel="noopener">https://github.com/git/git</a><br>1<br>完成之后到桌面空白处单击鼠标右键，如果有出现Git Bash Here选项则证明已经安装成功</p>
+<ol start="2">
+<li>安装Node.js<br>下载地址：<a href="https://nodejs.org/en，同样的也是按照默认傻瓜式安装就好" target="_blank" rel="noopener">https://nodejs.org/en，同样的也是按照默认傻瓜式安装就好</a></li>
+</ol>
+<p>完成之后到桌面空白处单击鼠标右键，选择Git Bash Here进入bash窗口输入命令 node -v 和 npm -v 验证安装是否成功</p>
+<p>user@machine MINGW64 ~/Desktop<br>$ node -v<br>v8.11.3</p>
+<p>user@machine MINGW64 ~/Desktop<br>$ npm -v<br>5.6.0</p>
+<ol start="3">
+<li>下载Hexo<br>在桌面空白处单击鼠标右键，选择Git Bash Here进入bash窗口输入命令 npm install -g hexo 下载Hexo</li>
+</ol>
+<p>$ npm install -g hexo<br>1<br>等待完成之后，输入命令 hexo -v 验证安装是否成功</p>
+<p>user@machine MINGW64 ~/Desktop<br>$ hexo -v<br>hexo: 3.7.1<br>hexo-cli: 1.1.0<br>os: Windows_NT 10.0.16299 win32 x64<br>http_parser: 2.8.0<br>node: 8.11.3<br>v8: 6.2.414.54<br>uv: 1.19.1<br>zlib: 1.2.11<br>ares: 1.10.1-DEV<br>modules: 57<br>nghttp2: 1.32.0<br>napi: 3<br>openssl: 1.0.2o<br>icu: 60.1<br>unicode: 10.0<br>cldr: 32.0<br>tz: 2017c</p>
+<p>三、利用Hexo建站</p>
+<ol>
+<li>初始化<br>在本地磁盘中选择一个合适的位置创建一个新的文件夹（这里的示例创建在桌面命名为test）用来储存本地文件，进入文件夹打开git bash窗口，输入命令 hexo init 和 npm install</li>
+</ol>
+<p>user@machine MINGW64 ~/Desktop/test<br>$ hexo init<br>INFO  Cloning hexo-starter to ~\Desktop\test<br>Cloning into ‘C:\Users\user\Desktop\test’…<br>remote: Counting objects: 65, done.<br>remote: Total 65 (delta 0), reused 0 (delta 0), pack-reused 65<br>Unpacking objects: 100% (65/65), done.<br>Submodule ‘themes/landscape’ (<a href="https://github.com/hexojs/hexo-theme-landscape.git" target="_blank" rel="noopener">https://github.com/hexojs/hexo-theme-landscape.git</a>) registered for path ‘themes/landscape’<br>Cloning into ‘C:/Users/user/Desktop/test/themes/landscape’…<br>remote: Counting objects: 833, done.<br>remote: Compressing objects: 100% (10/10), done.<br>remote: Total 833 (delta 1), reused 1 (delta 0), pack-reused 823<br>Receiving objects: 100% (833/833), 2.54 MiB | 52.00 KiB/s, done.<br>Resolving deltas: 100% (436/436), done.<br>Submodule path ‘themes/landscape’: checked out ‘73a23c51f8487cfcd7c6deec96ccc7543960d350’<br>INFO  Install dependencies<br>npm WARN deprecated <a href="mailto:titlecase@1.1.2" target="_blank" rel="noopener">titlecase@1.1.2</a>: no longer maintained</p>
+<blockquote>
+<p><a href="mailto:nunjucks@3.1.3" target="_blank" rel="noopener">nunjucks@3.1.3</a> postinstall C:\Users\user\Desktop\test\node_modules\nunjucks<br>node postinstall-build.js src</p>
+</blockquote>
+<p>npm notice created a lockfile as package-lock.json. You should commit this file.<br>npm WARN optional SKIPPING OPTIONAL DEPENDENCY: <a href="mailto:fsevents@1.2.4" target="_blank" rel="noopener">fsevents@1.2.4</a> (node_modules\fsevents):<br>npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for <a href="mailto:fsevents@1.2.4" target="_blank" rel="noopener">fsevents@1.2.4</a>: wanted {“os”:”darwin”,”arch”:”any”} (current: {“os”:”win32”,”arch”:”x64”})</p>
+<p>added 397 packages in 34.63s<br>INFO  Start blogging with Hexo!</p>
+<p>user@machine MINGW64 ~/Desktop/test<br>$ npm install<br>npm WARN optional SKIPPING OPTIONAL DEPENDENCY: <a href="mailto:fsevents@1.2.4" target="_blank" rel="noopener">fsevents@1.2.4</a> (node_modules\fsevents):<br>npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for <a href="mailto:fsevents@1.2.4" target="_blank" rel="noopener">fsevents@1.2.4</a>: wanted {“os”:”darwin”,”arch”:”any”} (current: {“os”:”win32”,”arch”:”x64”})</p>
+<p>audited 4704 packages in 5.315s</p>
+<h2 id="found-0-vulnerabilities"><a href="#found-0-vulnerabilities" class="headerlink" title="found 0 vulnerabilities"></a>found 0 vulnerabilities</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/01/20/本地博客/" data-id="cjr4qaic800014go0xlhoqedk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/01/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/01/20/本地博客/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/20/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
